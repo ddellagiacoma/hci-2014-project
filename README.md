@@ -45,7 +45,7 @@ installata l’applicazione-prototipo sviluppata dal team, per eseguire i task d
 La performance dei componenti del campione è stata registrata in audio e video, e successivamente rivista
 e analizzata dal team.
 
-## Composizione del campione
+#### Composizione del campione
 
 Il campione era composto da 12 soggetti, 7 uomini e 5 donne, studenti dell'Università di Trento tra i 20 e i 24 anni, e avevano piena confidenza con lo smartphone utilizzato (sistema operativo Android). Erano di madrelingua e cultura italiana con almeno una
 minima conoscenza della lingua inglese. Nessuno presentava disabilità fisiche.
