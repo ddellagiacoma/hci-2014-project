@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SALDO: 13h"
+        android:textSize="40sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#D9532F"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Ultimi movimenti"
+        android:textSize="20sp"
+        android:textColor="#D9532F"
+        android:layout_marginBottom="10sp"
+        android:gravity="center_horizontal"/>
+
+    <ListView
+        android:id="@+id/list_bank"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@android:color/transparent" />
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/homelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingTop="40dp"
+            android:weightSum="1" >
+
+            <Button
+                style="@style/homeButton"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:drawableTop="@drawable/mycv"
+                android:text="My CV"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="mycv"/>
+
+            <Button
+                style="@style/homeButton"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:drawableTop="@drawable/calendar"
+                android:text="My calendar"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="calendario"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingTop="40dp"
+            android:weightSum="1" >
+
+            <Button
+                style="@style/homeButton"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:drawableTop="@drawable/group"
+                android:text="My groups"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="mygroups"/>
+
+            <Button
+                style="@style/homeButton"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:drawableTop="@drawable/notifiche"
+                android:text="My news"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="notifiche"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingTop="40dp"
+            android:weightSum="1" >
+
+            <Button
+                style="@style/homeButton"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:drawableTop="@drawable/bank"
+                android:text="My Bank"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="mybank"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

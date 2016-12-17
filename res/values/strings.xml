@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My CVs</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="groups">
+        <item>Gruppo Analisi 1</item>
+        <item>Gruppo Human-Computer Interaction</item>
+        <item>Gruppo Programmazione 1</item>
+        <item>Gruppo Database</item>
+        <item>Gruppo Algoritmi Avanzati</item>
+        <item>Gruppo Reti di Calcolatori</item>
+        <item>Gruppo Sistemi Operativi 1</item>
+    </string-array>
+
+        <string-array name="notifiche">
+        <item>Il <b>15/02/2013</b> è stato fissato un  incontro per il gruppo HCI.</item>
+        <item>Gruppo Human-Computer Interaction</item>
+        <item>Gruppo Programmazione 1</item>
+        <item>Gruppo Database</item>
+        <item>Gruppo Algoritmi Avanzati</item>
+        <item>Gruppo Reti di Calcolatori</item>
+        <item>Gruppo Sistemi Operativi 1</item>
+    </string-array>
+    
+               <string-array name="bank">
+        <item><b>19/02/2008:</b> Ricevuto pagamento di 2 ore da Mario Bianchi.</item>
+        <item>Gruppo Human-Computer Interaction</item>
+        <item>Gruppo Programmazione 1</item>
+        <item>Gruppo Database</item>
+        <item>Gruppo Algoritmi Avanzati</item>
+        <item>Gruppo Reti di Calcolatori</item>
+        <item>Gruppo Sistemi Operativi 1</item>
+    </string-array>
+    
+</resources>
